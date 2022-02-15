@@ -6,9 +6,7 @@
     "start": "ng serve",
     "test": "ng test",
     "lint": "ng lint",
-    "server": "json-server server/db.json",
-    "start:server": "node server.js",
-    "server:all": "concurrently \"npm run server\" \"ng serve\"",
+    "server": "nodemon server.js",
     "build": "ng build --prod",
     "watch": "ng build --watch --configuration development"
   },
